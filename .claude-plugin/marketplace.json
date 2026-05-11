@@ -1,0 +1,23 @@
+{
+  "name": "thedanielmay",
+  "owner": {
+    "name": "Daniel May",
+    "email": "daniel@thedanielmay.com"
+  },
+  "metadata": {
+    "description": "Daniel May's Claude Code plugins",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "superfix",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedanielmay/superfix-skill.git"
+      },
+      "description": "Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}

@@ -15,7 +15,7 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/superfix-skill.git"
       },
-      "description": "Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
+      "description": "Intelligent dev orchestrator \u2014 classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
       "version": "1.0.0",
       "strict": true
     },
@@ -25,7 +25,17 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/supersocials-skill.git"
       },
-      "description": "End-to-end social media skill — strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky",
+      "description": "End-to-end social media skill \u2014 strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky",
+      "version": "1.0.0",
+      "strict": true
+    },
+    {
+      "name": "expert-panel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedanielmay/expert-panel-skill.git"
+      },
+      "description": "Adversarial expert panel review \u2014 profiles proposals, routes to skill or agent workflow, runs 4 independent experts across adversarial axes, and produces a decision dossier with must-fix, should-fix, unresolved objections, cross-panel tensions, and a steel-manned alternative.",
       "version": "1.0.0",
       "strict": true
     }

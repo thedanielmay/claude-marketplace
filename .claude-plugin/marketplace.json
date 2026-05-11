@@ -15,7 +15,7 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/superfix-skill.git"
       },
-      "description": "Intelligent dev orchestrator \u2014 classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
+      "description": "Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
       "version": "1.0.0",
       "strict": true
     },
@@ -25,7 +25,7 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/supersocials-skill.git"
       },
-      "description": "End-to-end social media skill \u2014 strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky",
+      "description": "End-to-end social media skill — strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky",
       "version": "1.1.0",
       "strict": true
     },
@@ -35,7 +35,7 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/expert-panel-skill.git"
       },
-      "description": "Adversarial expert panel review \u2014 profiles proposals, routes to skill or agent workflow, runs 4 independent experts across adversarial axes, and produces a decision dossier with must-fix, should-fix, unresolved objections, cross-panel tensions, and a steel-manned alternative.",
+      "description": "Adversarial expert panel review — profiles proposals, routes to skill or agent workflow, runs 4 independent experts across adversarial axes, and produces a decision dossier with must-fix, should-fix, unresolved objections, cross-panel tensions, and a steel-manned alternative.",
       "version": "1.0.0",
       "strict": true
     },
@@ -45,7 +45,7 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/company-intel-skill.git"
       },
-      "description": "Deep background research and competitive intelligence on any company or organisation \u2014 entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis.",
+      "description": "Deep background research and competitive intelligence on any company or organisation — entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis.",
       "version": "1.1.0",
       "strict": true
     },
@@ -55,8 +55,18 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/topic-intel-skill.git"
       },
-      "description": "Deep, multi-source intelligence research on any non-company topic \u2014 markets, industries, policies, regulations, academic fields, technology categories, geographic communities, trends, and public figures.",
+      "description": "Deep, multi-source intelligence research on any non-company topic — markets, industries, policies, regulations, academic fields, technology categories, geographic communities, trends, and public figures.",
       "version": "2.1.0",
+      "strict": true
+    },
+    {
+      "name": "visual-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedanielmay/visual-review-skill.git"
+      },
+      "description": "Visual QA skill — renders PDFs and HTML at 200 DPI, runs Quick Pass or Full Review, and produces action-first HOLD/FIX IF TIME/NOTE reports covering clipping, overlaps, font fallback, density imbalance, typography, and brand drift. Includes type-specific checks for slide decks, books, and reports.",
+      "version": "1.0.0",
       "strict": true
     }
   ]

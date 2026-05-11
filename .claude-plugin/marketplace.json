@@ -18,6 +18,16 @@
       "description": "Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
       "version": "1.0.0",
       "strict": true
+    },
+    {
+      "name": "supersocials",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedanielmay/supersocials-skill.git"
+      },
+      "description": "End-to-end social media skill — strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky",
+      "version": "1.0.0",
+      "strict": true
     }
   ]
 }

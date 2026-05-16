@@ -65,7 +65,17 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/visual-review-skill.git"
       },
-      "description": "Visual QA skill \u2014 renders PDFs and HTML at 200 DPI, runs Quick Pass or Full Review, and produces action-first HOLD/FIX\u00a0IF\u00a0TIME/NOTE reports covering clipping, overlaps, font fallback, density imbalance, typography, and brand drift. Includes type-specific checks for slide decks, books, and reports.",
+      "description": "Visual QA skill \u2014 renders PDFs and HTML at 300 DPI, runs Quick Pass or Full Review, produces action-first HOLD/FIX\u00a0IF\u00a0TIME/NOTE reports. Covers clipping, overlaps, font fallback, density imbalance, typography, brand drift, 8 mandatory bottom-edge checks, Paged.js structural patterns, form-aware checks, type-specific checks for slides/books/reports, commercial press-readiness checklist (BleedBox/TrimBox, ICC OutputIntent, TAC, spot colours), and conditional stack assessment via Phase\u00a01.5.",
+      "version": "2.0.0",
+      "strict": true
+    },
+    {
+      "name": "visual-stack-review",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedanielmay/visual-stack-review-skill.git"
+      },
+      "description": "Document production stack analyser \u2014 detects renderer from PDF metadata, package.json, and HTML signals; classifies document type; recommends stay-and-fix or migration with 5-component effort breakdowns. Deep-dive references for 11 tools (Paged.js, WeasyPrint, Prince, Typst, headless Chrome, Playwright/Puppeteer, LaTeX, Pandoc, React-PDF/ReportLab, InDesign/Affinity, wkhtmltopdf). Quarterly matrix review procedure included. Expert-panel reviewed: print production claims corrected, migration costs re-rated, CVE carve-out from stay+fix.",
       "version": "1.0.0",
       "strict": true
     }

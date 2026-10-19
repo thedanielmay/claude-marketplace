@@ -25,8 +25,8 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/superfix-skill.git"
       },
-      "description": "Intelligent dev orchestrator \u2014 classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR",
-      "version": "1.1.0",
+      "description": "Intelligent dev orchestrator \u2014 classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to an opened PR",
+      "version": "1.1.1",
       "strict": true
     },
     {

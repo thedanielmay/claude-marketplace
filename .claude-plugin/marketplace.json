@@ -75,8 +75,8 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/visual-review-skill.git"
       },
-      "description": "Visual QA skill \u2014 renders PDFs and HTML at 300 DPI, runs Quick Pass or Full Review, produces action-first HOLD/FIX\u00a0IF\u00a0TIME/NOTE reports. Covers clipping, overlaps, font fallback, density imbalance, typography, brand drift, 8 mandatory bottom-edge checks, Paged.js structural patterns, form-aware checks, type-specific checks for slides/books/reports, commercial press-readiness checklist (BleedBox/TrimBox, ICC OutputIntent, TAC, spot colours), and conditional stack assessment via Phase\u00a01.5.",
-      "version": "2.0.0",
+      "description": "Visual QA skill for rendered documents: PDFs, slide decks, books, reports, brochures and HTML pages. Renders at 300 DPI and runs a Quick Pass or Full Review, producing action-first HOLD / FIX IF TIME / NOTE reports. Catches clipped content, overflow, broken layout, font fallback, density imbalance, typographic faults (orphans, hyphenation, sub-heading wrap, dash policy), brand drift and cross-page inconsistency, with 8 mandatory bottom-edge checks, zone crops at 15mm and 10mm, Paged.js structural patterns, form-aware checks, type-specific checks for slides/books/reports, a commercial press-readiness checklist (BleedBox/TrimBox, ICC OutputIntent, TAC, spot colours), and a trigger-gated stack assessment (Phase 1.5) that speaks only on CVE, traceable stack bug, or request.",
+      "version": "2.1.1",
       "strict": true
     },
     {
@@ -85,8 +85,8 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/visual-stack-review-skill.git"
       },
-      "description": "Document production stack analyser \u2014 detects renderer from PDF metadata, package.json, and HTML signals; classifies document type; recommends stay-and-fix or migration with 5-component effort breakdowns. Deep-dive references for 11 tools (Paged.js, WeasyPrint, Prince, Typst, headless Chrome, Playwright/Puppeteer, LaTeX, Pandoc, React-PDF/ReportLab, InDesign/Affinity, wkhtmltopdf). Quarterly matrix review procedure included. Expert-panel reviewed: print production claims corrected, migration costs re-rated, CVE carve-out from stay+fix.",
-      "version": "1.0.0",
+      "description": "Document production stack analyser. Detects the renderer actually producing a document from PDF metadata, package.json and HTML source signals, classifies the document type, and recommends stay-and-fix or migration. Always gives the stay+fix option with honest cost/benefit; full migration comparison on request. Produces the top 2 to 4 recommendations with a 5-component effort breakdown (source rewrite, layout-engine retuning, pipeline, ecosystem regression risk, author retraining) plus plain-language summaries. Deep-dive references for 11 tools (Paged.js, WeasyPrint, Prince, Typst, headless Chrome, Playwright/Puppeteer, LaTeX, Pandoc, React-PDF/ReportLab, InDesign/Affinity, wkhtmltopdf). Quarterly matrix review procedure included.",
+      "version": "1.0.1",
       "strict": true
     }
   ]

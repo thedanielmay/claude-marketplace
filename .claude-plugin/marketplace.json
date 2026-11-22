@@ -16,7 +16,7 @@
         "url": "https://github.com/thedanielmay/quick-dirty-auth-skill.git"
       },
       "description": "Deploy a local app to the web behind an auth gate — shared password by default, Cloudflare Access when the domain is already on Cloudflare. Detects app shape (Next.js, Node server, static), gates it, deploys to Vercel, reports a URL. Hands-off where possible; includes teardown.",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "strict": true
     },
     {
@@ -26,7 +26,7 @@
         "url": "https://github.com/thedanielmay/superfix-skill.git"
       },
       "description": "Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to an opened PR",
-      "version": "1.8.2",
+      "version": "1.8.3",
       "strict": true
     },
     {
@@ -46,7 +46,7 @@
         "url": "https://github.com/thedanielmay/expert-panel-skill.git"
       },
       "description": "Adversarial expert panel review — profiles proposals, routes to skill or agent workflow, runs 4 independent experts across adversarial axes, and produces a decision dossier with must-fix, should-fix, unresolved objections, cross-panel tensions, and a steel-manned alternative.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "strict": true
     },
     {
@@ -56,7 +56,7 @@
         "url": "https://github.com/thedanielmay/company-intel-skill.git"
       },
       "description": "Deep background research and competitive intelligence on any company or organisation — entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis.",
-      "version": "1.1.0",
+      "version": "1.1.2",
       "strict": true
     },
     {
@@ -66,7 +66,7 @@
         "url": "https://github.com/thedanielmay/topic-intel-skill.git"
       },
       "description": "Deep, multi-source intelligence research on any non-company topic — markets, industries, policies, regulations, academic fields, technology categories, geographic communities, trends, and public figures.",
-      "version": "2.1.0",
+      "version": "2.1.2",
       "strict": true
     },
     {
@@ -76,7 +76,7 @@
         "url": "https://github.com/thedanielmay/visual-review-skill.git"
       },
       "description": "Visual QA skill for rendered documents: PDFs, slide decks, books, reports, brochures and HTML pages. Renders at 300 DPI and runs a Quick Pass or Full Review, producing action-first HOLD / FIX IF TIME / NOTE reports. Catches clipped content, overflow, broken layout, font fallback, density imbalance, typographic faults (orphans, hyphenation, sub-heading wrap, dash policy), brand drift and cross-page inconsistency, with 8 mandatory bottom-edge checks, zone crops at 15mm and 10mm, Paged.js structural patterns, form-aware checks, type-specific checks for slides/books/reports, a commercial press-readiness checklist (BleedBox/TrimBox, ICC OutputIntent, TAC, spot colours), and a trigger-gated stack assessment (Phase 1.5) that speaks only on CVE, traceable stack bug, or request.",
-      "version": "2.1.1",
+      "version": "2.1.3",
       "strict": true
     },
     {
@@ -86,7 +86,7 @@
         "url": "https://github.com/thedanielmay/visual-stack-review-skill.git"
       },
       "description": "Document production stack analyser. Detects the renderer actually producing a document from PDF metadata, package.json and HTML source signals, classifies the document type, and recommends stay-and-fix or migration. Always gives the stay+fix option with honest cost/benefit; full migration comparison on request. Produces the top 2 to 4 recommendations with a 5-component effort breakdown (source rewrite, layout-engine retuning, pipeline, ecosystem regression risk, author retraining) plus plain-language summaries. Deep-dive references for 11 tools (Paged.js, WeasyPrint, Prince, Typst, headless Chrome, Playwright/Puppeteer, LaTeX, Pandoc, React-PDF/ReportLab, InDesign/Affinity, wkhtmltopdf). Quarterly matrix review procedure included.",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "strict": true
     }
   ]

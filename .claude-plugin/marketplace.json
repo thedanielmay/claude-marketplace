@@ -86,7 +86,7 @@
         "url": "https://github.com/thedanielmay/visual-stack-review-skill.git"
       },
       "description": "Document production stack analyser. Detects the renderer actually producing a document from PDF metadata, package.json and HTML source signals, classifies the document type, and recommends stay-and-fix or migration. Always gives the stay+fix option with honest cost/benefit; full migration comparison on request. Produces the top 2 to 4 recommendations with a 5-component effort breakdown (source rewrite, layout-engine retuning, pipeline, ecosystem regression risk, author retraining) plus plain-language summaries. Deep-dive references for 11 tools (Paged.js, WeasyPrint, Prince, Typst, headless Chrome, Playwright/Puppeteer, LaTeX, Pandoc, React-PDF/ReportLab, InDesign/Affinity, wkhtmltopdf). Quarterly matrix review procedure included.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "strict": true
     }
   ]

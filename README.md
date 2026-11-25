@@ -37,7 +37,7 @@ This marketplace is consumed by Claude Code's plugin system. To add this marketp
 ```
 claude-marketplace/
 └── .claude-plugin/
-    └── marketplace.json   # Registry manifest — lists all plugins with source URLs and versions
+    └── marketplace.json   # Registry manifest — lists all plugins with source URLs. Each plugin's version lives in its own repo
 ```
 
 Each plugin entry in `marketplace.json` specifies:
@@ -45,9 +45,8 @@ Each plugin entry in `marketplace.json` specifies:
 - `name` — the plugin identifier used at install time
 - `source.url` — the GitHub repository containing the plugin implementation
 - `description` — what the plugin does
-- `version` — the current published version
 - `strict` — whether the plugin runs in strict mode
 
 ## Status
 
-Active — plugins are versioned and updated regularly. Last updated May 2026.
+Active — plugins are versioned in their own repos and updated regularly.

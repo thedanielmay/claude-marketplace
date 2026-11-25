@@ -16,7 +16,7 @@
         "url": "https://github.com/thedanielmay/quick-dirty-auth-skill.git"
       },
       "description": "Deploy a local app to the web behind an auth gate — shared password by default, Cloudflare Access when the domain is already on Cloudflare. Detects app shape (Next.js, Node server, static), gates it, deploys to Vercel, reports a URL. Hands-off where possible; includes teardown.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "strict": true
     },
     {

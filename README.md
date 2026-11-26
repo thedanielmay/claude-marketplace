@@ -8,15 +8,16 @@ This repository is a Claude Code plugin marketplace — a registry that lists pu
 
 ## Plugins
 
-| Plugin | Version | Description |
-|--------|---------|-------------|
-| **superfix** | 1.0.0 | Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR |
-| **supersocials** | 1.3.0 | End-to-end social media skill — strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky |
-| **expert-panel** | 1.0.0 | Adversarial expert panel review — profiles proposals, routes to skill or agent workflow, runs 4 independent experts across adversarial axes, and produces a decision dossier with must-fix, should-fix, unresolved objections, and a steel-manned alternative |
-| **company-intel** | 1.1.0 | Deep background research and competitive intelligence on any company or organisation — entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis |
-| **topic-intel** | 2.1.0 | Deep, multi-source intelligence research on any non-company topic — markets, industries, policies, regulations, academic fields, technology categories, trends, and public figures |
-| **visual-review** | 2.0.0 | Visual QA skill — renders PDFs and HTML at 300 DPI, runs Quick Pass or Full Review, produces action-first HOLD/FIX IF TIME/NOTE reports covering typography, brand, layout, and commercial press-readiness |
-| **visual-stack-review** | 1.0.0 | Document production stack analyser — detects renderer from PDF metadata and project signals, classifies document type, and recommends stay-and-fix or migration with effort breakdowns |
+| Plugin | Description |
+|--------|-------------|
+| **superfix** | Intelligent dev orchestrator — classifies GitHub issues or freeform descriptions, assembles the right skill set, and drives work to a merged PR |
+| **supersocials** | End-to-end social media skill — strategy, copywriting, video scripts, content calendars, visual briefs, and analytics across Instagram, TikTok, LinkedIn, X, YouTube, Facebook, Pinterest, Threads, and Bluesky |
+| **expert-panel** | Adversarial expert panel review — profiles proposals, routes to skill or agent workflow, runs 4 independent experts across adversarial axes, and produces a decision dossier with must-fix, should-fix, unresolved objections, and a steel-manned alternative |
+| **research-intel** | Deep research and intelligence on a named company or a topic: a company mode and a topic mode, with provenance on every fact |
+| **company-intel** | Deprecated: use research-intel. Deep background research and competitive intelligence on any company or organisation — entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis |
+| **topic-intel** | Deprecated: use research-intel. Deep, multi-source intelligence research on any non-company topic — markets, industries, policies, regulations, academic fields, technology categories, trends, and public figures |
+| **visual-review** | Visual QA skill — renders PDFs and HTML at 300 DPI, runs Quick Pass or Full Review, produces action-first HOLD/FIX IF TIME/NOTE reports covering typography, brand, layout, and commercial press-readiness |
+| **visual-stack-review** | Document production stack analyser — detects renderer from PDF metadata and project signals, classifies document type, and recommends stay-and-fix or migration with effort breakdowns |
 
 ## Installation / Usage
 

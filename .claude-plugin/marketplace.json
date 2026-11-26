@@ -46,12 +46,21 @@
       "strict": true
     },
     {
+      "name": "research-intel",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/thedanielmay/research-intel-skill.git"
+      },
+      "description": "Deep research and intelligence on a named company or a topic: a company mode and a topic mode, with provenance on every fact.",
+      "strict": true
+    },
+    {
       "name": "company-intel",
       "source": {
         "source": "url",
         "url": "https://github.com/thedanielmay/company-intel-skill.git"
       },
-      "description": "Deep background research and competitive intelligence on any company or organisation — entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis.",
+      "description": "Deprecated: use research-intel. Deep background research and competitive intelligence on any company or organisation — entity verification, financial intelligence, people profiling, digital footprint, and competitive analysis.",
       "strict": true
     },
     {
@@ -60,7 +69,7 @@
         "source": "url",
         "url": "https://github.com/thedanielmay/topic-intel-skill.git"
       },
-      "description": "Deep, multi-source intelligence research on any non-company topic — markets, industries, policies, regulations, academic fields, technology categories, geographic communities, trends, and public figures.",
+      "description": "Deprecated: use research-intel. Deep, multi-source intelligence research on any non-company topic — markets, industries, policies, regulations, academic fields, technology categories, geographic communities, trends, and public figures.",
       "strict": true
     },
     {
